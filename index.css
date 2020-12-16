@@ -1,0 +1,36 @@
+.fond {
+ background: url('image/7.jpeg');
+ position: relative; /* Le fond est fixé en haut de la page */
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 270px; /* On met ici la même hauteur que le jumbotron */
+ left:0;
+ z-index: -1;
+}
+
+.fonds {
+ background: url('image/6.jpeg');
+ position: relative; /* Le fond est fixé en haut de la page */
+ width: 100%; /* Il occupe toute la largeur de l'écran */
+ height: 270px; /* On met ici la même hauteur que le jumbotron */
+ left:0;
+ z-index: -1;
+}
+.jumbotron {
+ margin-bottom: 0px;
+ height: 270px;
+ color: black; /* Le texte sera affiché en blanc */
+ text-shadow: black 0.3em 0.3em 0.3em;
+ background:transparent;
+ background-color: #000000;
+opacity: 99%;
+}
+
+.text{
+	color: white;
+}
+
+.text2{
+	font-size: 25px;
+	text-align: center;
+	font-family: Comic Sans MS ;
+}
